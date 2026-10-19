@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="22" viewBox="0 0 30 22" aria-hidden="true">
+  <rect width="30" height="22" rx="6" fill="#4F8BFF" fill-opacity="0.14"/>
+  <rect x="0.5" y="0.5" width="29" height="21" rx="5.5" fill="none" stroke="#4F8BFF" stroke-opacity="0.45"/>
+  <text x="15" y="15.5" text-anchor="middle" fill="#4F8BFF" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="0.4">04</text>
+</svg>

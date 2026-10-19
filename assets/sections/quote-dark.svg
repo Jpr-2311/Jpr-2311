@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="160" viewBox="0 0 520 160" role="img" aria-label="My favourite moment in programming is when an idea that only existed in my head finally runs on screen — and then the experimenting to make it better begins.">
+  <defs><linearGradient id="q" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#4F8BFF"/><stop offset="0.6" stop-color="#9B7CF6"/><stop offset="1" stop-color="#2BB5CC"/>
+  </linearGradient></defs>
+  <rect x="0" y="10" width="4" height="140" rx="2" fill="url(#q)"/>
+  <text x="30" y="40" fill="#A9B1C0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" font-style="italic" letter-spacing="-0.1">My favourite moment in programming is when</text><text x="30" y="73" fill="#A9B1C0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" font-style="italic" letter-spacing="-0.1">an idea that only existed in my head finally</text><text x="30" y="106" fill="#A9B1C0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" font-style="italic" letter-spacing="-0.1">runs on screen — and then the experimenting</text><text x="30" y="139" fill="#A9B1C0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" font-style="italic" letter-spacing="-0.1">to make it better begins.</text>
+</svg>
