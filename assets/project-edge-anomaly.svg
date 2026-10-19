@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="120" viewBox="0 0 880 120">
+
+  <defs>
+    <pattern id="scanp5" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#000" fill-opacity="0.38"/>
+    </pattern>
+    <pattern id="gridp5" width="22" height="22" patternUnits="userSpaceOnUse">
+      <path d="M22 0H0V22" fill="none" stroke="#39FF88" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="vigp5" cx="50%" cy="50%" r="75%">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.65"/>
+    </radialGradient>
+    <linearGradient id="sweepp5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#39FF88" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#39FF88" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#39FF88" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glowp5" x="-10%" y="-60%" width="120%" height="220%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="bigglowp5" x="-10%" y="-40%" width="120%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="clipp5"><rect width="880" height="120" rx="10"/></clipPath>
+  </defs>
+  <g clip-path="url(#clipp5)">
+    <rect width="880" height="120" fill="#040B08"/>
+    <rect width="880" height="120" fill="url(#gridp5)"/>
+    
+    <rect x="0" y="0" width="4" height="120" fill="#A78BFA"/>
+    <text x="28" y="40" fill="#3E6B55" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Code', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="400" text-anchor="start" xml:space="preserve">drwxr-xr-x</text>
+    <text x="170" y="42" fill="#39FF88" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Code', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="25" font-weight="700" text-anchor="start" filter="url(#glowp5)" xml:space="preserve">edge-anomaly/</text>
+    <rect x="764" y="22" width="88" height="26" rx="3" fill="#A78BFA" fill-opacity="0.10" stroke="#A78BFA" stroke-opacity="0.7"/>
+    <text x="808.0" y="40" fill="#A78BFA" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Code', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="1" xml:space="preserve">IOT + ML</text>
+    <text x="170" y="76" fill="#C9F7DD" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Code', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="18" font-weight="400" text-anchor="start" xml:space="preserve">&gt; ESP32 vibration stream → autoencoder anomaly alerts</text>
+    <text x="170" y="104" fill="#22D3EE" fill-opacity="0.85" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Code', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="400" text-anchor="start" xml:space="preserve">esp32 · arduino c++ · flask · tensorflow · react</text>
+    <text x="852" y="104" fill="#3E6B55" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Code', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" text-anchor="end" xml:space="preserve">open ↗</text>
+    <rect width="880" height="120" fill="url(#scanp5)"/>
+    <rect width="880" height="120" fill="url(#vigp5)"/>
+  </g>
+  <rect x="0.75" y="0.75" width="878.5" height="118.5" rx="9.5" fill="none" stroke="#39FF88" stroke-opacity="0.25" stroke-width="1.5"/>
+</svg>
